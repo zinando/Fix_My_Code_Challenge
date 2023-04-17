@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+from flask import Flask
+
+app = Flask(__name__)
 
 class square():
     
@@ -26,3 +29,4 @@ if __name__ == "__main__":
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
+    #app.run(host="0.0.0.0", port=5000)
